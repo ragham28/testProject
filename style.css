@@ -1,0 +1,75 @@
+/* adding * for the entire website */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* # is used when we are writing code for id */
+#nav-bar{
+    position: sticky; /*nav bar will be sticky from the top*/
+    top: 0;
+    z-index: 10;
+}
+
+/* get the size of the navigation brand and image */
+.navbar-brand img{
+    height: 40px;
+    padding-left: 30px;
+}
+
+.navbar-nav li{
+    padding: 0 10px;
+}
+
+.navbar-nav li a{
+    float: right;
+    text-align: left;
+
+}
+
+/* to get the color change when hover over the navigation bar */
+#nav-bar ul li a:hover{
+    color: #007bff!important; /*need to write importent because we are overriding bootstrap classes*/
+}
+
+.navbar{
+    background: #fff;
+}
+
+.navbar-toggler{
+    border: none!important;/*need to write importent because we are overriding bootstrap classes*/
+}
+
+.nav-link{
+    color: #555!important;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+#slider{
+    width: 100%;
+}
+
+#about{
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.about .button{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.skills-bar p{
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+.progress-bar{
+    border-radius: 16px;
+}
+
+.progress{
+    border-radius: 16px !important;
+    margin-bottom: 20;
+}

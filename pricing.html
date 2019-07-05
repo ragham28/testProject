@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <!-- using https://getbootstrap.com/ copy the CSS only link rel stylesheet stackpath as below and remove the rest of the link as below-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <!--need font awesome cdm from https://www.bootstrapcdn.com/fontawesome/
+            copy the link and past in href -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+        <!--Navigation Bar-->
+        <section id="nav-bar">
+                <!--in the website https://getbootstrap.com/ , click on Documentation menu select components from the list and select Navbar
+                scrowl down to Navbar codes and copy the codes as below-->
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <!--removed bg-light-->
+                    <a class="navbar-brand" href="#">
+                       <img src="/image/PeopleIcons-04-128-80x80[1].png">
+                    </a>         
+                    <!--delete Navbar text from above and added image-->
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                      <ul class="navbar-nav ml-auto"> <!--changed navbar-nav to navbar-nav ml-auto to get navigation links to right side of the page -->
+                        <li class="nav-item active">
+                          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="features.html">Features</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link disabled" href="pricing.html">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#" >Disabled</a>
+                          <!--removed disabled from class nav-link disabled and removed tabindex="-1" aria-disabled="true"
+                          to get the item active -->
+                        </li>
+                      </ul>
+                    </div>
+                  </nav>
+                  
+            </section>        
+
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h1>This is the products page</h1>
+                        </div>
+                        <div class="col-md-3"></div>
+                        <div class="col-md-3">
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores vero ipsum voluptatum neque alias modi autem, ullam officiis, eveniet ut expedita ab veritatis animi odit ipsa quibusdam amet obcaecati. Doloremque!</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    </body>
+</html>
